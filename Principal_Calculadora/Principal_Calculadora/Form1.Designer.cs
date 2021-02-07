@@ -39,7 +39,6 @@
             this.pictureBoxCALC = new System.Windows.Forms.PictureBox();
             this.buttonSOBRE = new System.Windows.Forms.Button();
             this.buttonINICIO = new System.Windows.Forms.Button();
-            this.buttonSAIR = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMENU)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCALC)).BeginInit();
             this.SuspendLayout();
@@ -221,32 +220,11 @@
             this.buttonINICIO.UseVisualStyleBackColor = false;
             this.buttonINICIO.Click += new System.EventHandler(this.buttonINICIO_Click);
             // 
-            // buttonSAIR
-            // 
-            this.buttonSAIR.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.buttonSAIR.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonSAIR.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateGray;
-            this.buttonSAIR.FlatAppearance.BorderSize = 0;
-            this.buttonSAIR.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CadetBlue;
-            this.buttonSAIR.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CadetBlue;
-            this.buttonSAIR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSAIR.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSAIR.ForeColor = System.Drawing.Color.White;
-            this.buttonSAIR.Location = new System.Drawing.Point(-2, 433);
-            this.buttonSAIR.Name = "buttonSAIR";
-            this.buttonSAIR.Size = new System.Drawing.Size(260, 52);
-            this.buttonSAIR.TabIndex = 16;
-            this.buttonSAIR.Text = "  SAIR";
-            this.buttonSAIR.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonSAIR.UseVisualStyleBackColor = false;
-            this.buttonSAIR.Click += new System.EventHandler(this.buttonSAIR_Click);
-            // 
             // TelaPRINCIPAL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(920, 552);
-            this.Controls.Add(this.buttonSAIR);
             this.Controls.Add(this.buttonINICIO);
             this.Controls.Add(this.buttonSOBRE);
             this.Controls.Add(this.pictureBoxCALC);
@@ -265,7 +243,7 @@
             this.Name = "TelaPRINCIPAL";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora de Impostos";
-            this.Load += new System.EventHandler(this.TelaINICIAL);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FecharTela);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMENU)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCALC)).EndInit();
             this.ResumeLayout(false);
@@ -284,7 +262,6 @@
         private System.Windows.Forms.PictureBox pictureBoxCALC;
         private System.Windows.Forms.Button buttonSOBRE;
         private System.Windows.Forms.Button buttonINICIO;
-        private System.Windows.Forms.Button buttonSAIR;
     }
 }
 

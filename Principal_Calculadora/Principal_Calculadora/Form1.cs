@@ -15,6 +15,7 @@ namespace Principal_Calculadora
         public TelaPRINCIPAL()
         {
             InitializeComponent();
+            this.FormClosing += new FormClosingEventHandler(TelaINICIAL);
         }
 
         private void TelaINICIAL(object sender, EventArgs e)
@@ -57,15 +58,35 @@ namespace Principal_Calculadora
 
         }
 
-        private void buttonSAIR_Click(object sender, EventArgs e)
+        /*private void buttonSAIR_Click(object sender, EventArgs e)
         {
-            this.Close();
-        }
+            if (MessageBox.Show("Todos os valores serão apagados" + Environment.NewLine + "Deseja mesmo sair? ", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }*/
 
+
+
+        
         private void buttonSOBRE_Click(object sender, EventArgs e)
         {
 
         }
 
+        private void FecharTela(object sender, CancelEventArgs e)
+        {
+            if (MessageBox.Show("Deseja Encerrar a Aplicação?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
+            {
+                System.Environment.Exit(0);
+            }
+            else
+            {
+                e.Cancel = true;
+            }
+        }
+
+
+
     }
 }
+
