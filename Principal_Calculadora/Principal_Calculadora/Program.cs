@@ -16,7 +16,7 @@ namespace Principal_Calculadora
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TelaPRINCIPAL());
+            Application.Run(new TelaPrincipal());
         }
     }
 }
