@@ -57,6 +57,11 @@ namespace Principal_Calculadora
 
         }
 
+        private void buttonSAIR_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void buttonSOBRE_Click(object sender, EventArgs e)
         {
 
