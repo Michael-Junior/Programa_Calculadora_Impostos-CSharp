@@ -25,7 +25,7 @@ namespace Principal_Calculadora
 
         private void ButtonIcms_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void ButtonIcmsSt_Click(object sender, EventArgs e)
@@ -68,7 +68,8 @@ namespace Principal_Calculadora
 
         private void ButtonSobre_Click(object sender, EventArgs e)
         {
-
+            FormSobre TelaSobre = new FormSobre();
+                TelaSobre.ShowDialog();
         }
 
         private void TelaPrincipal_FormClosed(object sender, FormClosedEventArgs e)

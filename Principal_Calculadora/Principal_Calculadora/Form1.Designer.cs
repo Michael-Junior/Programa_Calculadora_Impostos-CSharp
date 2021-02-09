@@ -44,12 +44,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxCalc)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBoxMENU
+            // PictureBoxMENU
             // 
             this.PictureBoxMENU.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.PictureBoxMENU.Location = new System.Drawing.Point(-2, -2);
-            this.PictureBoxMENU.Name = "pictureBoxMENU";
-            this.PictureBoxMENU.Size = new System.Drawing.Size(260, 562);
+            this.PictureBoxMENU.Location = new System.Drawing.Point(-1, -1);
+            this.PictureBoxMENU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PictureBoxMENU.Name = "PictureBoxMENU";
+            this.PictureBoxMENU.Size = new System.Drawing.Size(173, 365);
             this.PictureBoxMENU.TabIndex = 2;
             this.PictureBoxMENU.TabStop = false;
             // 
@@ -64,9 +65,10 @@
             this.ButtonIcms.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonIcms.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonIcms.ForeColor = System.Drawing.Color.White;
-            this.ButtonIcms.Location = new System.Drawing.Point(-2, 35);
+            this.ButtonIcms.Location = new System.Drawing.Point(-1, 23);
+            this.ButtonIcms.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ButtonIcms.Name = "ButtonIcms";
-            this.ButtonIcms.Size = new System.Drawing.Size(260, 52);
+            this.ButtonIcms.Size = new System.Drawing.Size(173, 34);
             this.ButtonIcms.TabIndex = 5;
             this.ButtonIcms.Text = "  ICMS";
             this.ButtonIcms.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -84,9 +86,10 @@
             this.ButtonIcmsSt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonIcmsSt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonIcmsSt.ForeColor = System.Drawing.Color.White;
-            this.ButtonIcmsSt.Location = new System.Drawing.Point(-2, 92);
-            this.ButtonIcmsSt.Name = "buttonIcmsSt";
-            this.ButtonIcmsSt.Size = new System.Drawing.Size(260, 52);
+            this.ButtonIcmsSt.Location = new System.Drawing.Point(-1, 60);
+            this.ButtonIcmsSt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonIcmsSt.Name = "ButtonIcmsSt";
+            this.ButtonIcmsSt.Size = new System.Drawing.Size(173, 34);
             this.ButtonIcmsSt.TabIndex = 6;
             this.ButtonIcmsSt.Text = "  ICMS ST";
             this.ButtonIcmsSt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -104,9 +107,10 @@
             this.ButtonIcmsDifal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonIcmsDifal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonIcmsDifal.ForeColor = System.Drawing.Color.White;
-            this.ButtonIcmsDifal.Location = new System.Drawing.Point(-2, 149);
-            this.ButtonIcmsDifal.Name = "buttonIcmsDifal";
-            this.ButtonIcmsDifal.Size = new System.Drawing.Size(260, 52);
+            this.ButtonIcmsDifal.Location = new System.Drawing.Point(-1, 97);
+            this.ButtonIcmsDifal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonIcmsDifal.Name = "ButtonIcmsDifal";
+            this.ButtonIcmsDifal.Size = new System.Drawing.Size(173, 34);
             this.ButtonIcmsDifal.TabIndex = 7;
             this.ButtonIcmsDifal.Text = "  ICMS DIFAL";
             this.ButtonIcmsDifal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -124,16 +128,17 @@
             this.ButtonIpi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonIpi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonIpi.ForeColor = System.Drawing.Color.White;
-            this.ButtonIpi.Location = new System.Drawing.Point(-2, 206);
-            this.ButtonIpi.Name = "buttonIpi";
-            this.ButtonIpi.Size = new System.Drawing.Size(260, 52);
+            this.ButtonIpi.Location = new System.Drawing.Point(-1, 134);
+            this.ButtonIpi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonIpi.Name = "ButtonIpi";
+            this.ButtonIpi.Size = new System.Drawing.Size(173, 34);
             this.ButtonIpi.TabIndex = 8;
             this.ButtonIpi.Text = "  IPI";
             this.ButtonIpi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.ButtonIpi.UseVisualStyleBackColor = false;
             this.ButtonIpi.Click += new System.EventHandler(this.ButtonIpi_Click);
             // 
-            // buttonPis
+            // ButtonPis
             // 
             this.ButtonPis.BackColor = System.Drawing.Color.DarkSlateGray;
             this.ButtonPis.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -144,9 +149,10 @@
             this.ButtonPis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonPis.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonPis.ForeColor = System.Drawing.Color.White;
-            this.ButtonPis.Location = new System.Drawing.Point(-2, 263);
-            this.ButtonPis.Name = "buttonPis";
-            this.ButtonPis.Size = new System.Drawing.Size(260, 52);
+            this.ButtonPis.Location = new System.Drawing.Point(-1, 171);
+            this.ButtonPis.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonPis.Name = "ButtonPis";
+            this.ButtonPis.Size = new System.Drawing.Size(173, 34);
             this.ButtonPis.TabIndex = 9;
             this.ButtonPis.Text = "  PIS";
             this.ButtonPis.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -164,9 +170,10 @@
             this.ButtonCofins.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonCofins.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonCofins.ForeColor = System.Drawing.Color.White;
-            this.ButtonCofins.Location = new System.Drawing.Point(-2, 320);
-            this.ButtonCofins.Name = "buttonCofins";
-            this.ButtonCofins.Size = new System.Drawing.Size(260, 52);
+            this.ButtonCofins.Location = new System.Drawing.Point(-1, 208);
+            this.ButtonCofins.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonCofins.Name = "ButtonCofins";
+            this.ButtonCofins.Size = new System.Drawing.Size(173, 34);
             this.ButtonCofins.TabIndex = 10;
             this.ButtonCofins.Text = "  COFINS";
             this.ButtonCofins.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -175,10 +182,11 @@
             // 
             // PictureBoxCalc
             // 
-            this.PictureBoxCalc.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxCalc.Image")));
-            this.PictureBoxCalc.Location = new System.Drawing.Point(372, 55);
-            this.PictureBoxCalc.Name = "pictureBoxCalc";
-            this.PictureBoxCalc.Size = new System.Drawing.Size(525, 465);
+            this.PictureBoxCalc.Image = ((System.Drawing.Image)(resources.GetObject("PictureBoxCalc.Image")));
+            this.PictureBoxCalc.Location = new System.Drawing.Point(248, 36);
+            this.PictureBoxCalc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PictureBoxCalc.Name = "PictureBoxCalc";
+            this.PictureBoxCalc.Size = new System.Drawing.Size(350, 302);
             this.PictureBoxCalc.TabIndex = 11;
             this.PictureBoxCalc.TabStop = false;
             // 
@@ -193,9 +201,10 @@
             this.ButtonSobre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonSobre.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonSobre.ForeColor = System.Drawing.Color.White;
-            this.ButtonSobre.Location = new System.Drawing.Point(-2, 510);
-            this.ButtonSobre.Name = "buttonSobre";
-            this.ButtonSobre.Size = new System.Drawing.Size(260, 39);
+            this.ButtonSobre.Location = new System.Drawing.Point(-1, 331);
+            this.ButtonSobre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonSobre.Name = "ButtonSobre";
+            this.ButtonSobre.Size = new System.Drawing.Size(173, 25);
             this.ButtonSobre.TabIndex = 12;
             this.ButtonSobre.Text = "Sobre a Calculadora";
             this.ButtonSobre.UseVisualStyleBackColor = false;
@@ -212,9 +221,10 @@
             this.ButtonInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonInicio.ForeColor = System.Drawing.Color.White;
-            this.ButtonInicio.Location = new System.Drawing.Point(-2, 377);
-            this.ButtonInicio.Name = "buttonInicio";
-            this.ButtonInicio.Size = new System.Drawing.Size(260, 52);
+            this.ButtonInicio.Location = new System.Drawing.Point(-1, 245);
+            this.ButtonInicio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonInicio.Name = "ButtonInicio";
+            this.ButtonInicio.Size = new System.Drawing.Size(173, 34);
             this.ButtonInicio.TabIndex = 13;
             this.ButtonInicio.Text = "  TELA INICIAL";
             this.ButtonInicio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -232,9 +242,10 @@
             this.ButtonSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonSair.ForeColor = System.Drawing.Color.White;
-            this.ButtonSair.Location = new System.Drawing.Point(-2, 435);
-            this.ButtonSair.Name = "buttonSair";
-            this.ButtonSair.Size = new System.Drawing.Size(260, 52);
+            this.ButtonSair.Location = new System.Drawing.Point(-1, 283);
+            this.ButtonSair.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonSair.Name = "ButtonSair";
+            this.ButtonSair.Size = new System.Drawing.Size(173, 34);
             this.ButtonSair.TabIndex = 14;
             this.ButtonSair.Text = "  SAIR";
             this.ButtonSair.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -243,9 +254,9 @@
             // 
             // TelaPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(920, 552);
+            this.ClientSize = new System.Drawing.Size(613, 359);
             this.Controls.Add(this.ButtonSair);
             this.Controls.Add(this.ButtonInicio);
             this.Controls.Add(this.ButtonSobre);
@@ -261,6 +272,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "TelaPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
