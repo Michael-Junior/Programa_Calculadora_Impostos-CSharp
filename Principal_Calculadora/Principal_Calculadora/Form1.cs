@@ -64,7 +64,6 @@ namespace Principal_Calculadora
 
             if (SfecharAplicacao == DialogResult.Yes)
                 System.Environment.Exit(1);
-
         }
 
         private void ButtonSobre_Click(object sender, EventArgs e)
