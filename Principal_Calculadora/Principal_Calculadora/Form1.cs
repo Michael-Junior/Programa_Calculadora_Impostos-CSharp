@@ -60,15 +60,14 @@ namespace Principal_Calculadora
 
         private void ButtonSair_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Todos os valores serão apagados" + Environment.NewLine + "Deseja mesmo sair?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.No)
-            {
-                Application.Exit();
-            }
+            DialogResult SfecharAplicacao = (MessageBox.Show("Os valores não serão salvos" + Environment.NewLine + "Deseja realmente sair do sistema?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question));
+
+            if (SfecharAplicacao == DialogResult.Yes)
+                System.Environment.Exit(1);
         }
 
         private void ButtonSobre_Click(object sender, EventArgs e)
         {
-
 
         }
 
@@ -79,9 +78,9 @@ namespace Principal_Calculadora
 
         private void TelaPrincipal_FormClosing(object sender, FormClosingEventArgs e)
         {
-            DialogResult FecharAplicacao = (MessageBox.Show("Os valores não serão salvos" + Environment.NewLine + "Deseja realmente sair do sistema?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question));
+            DialogResult FecharAplicacaoX = (MessageBox.Show("Os valores não serão salvos" + Environment.NewLine + "Deseja realmente sair do sistema?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question));
 
-            if (FecharAplicacao == DialogResult.No)
+            if (FecharAplicacaoX == DialogResult.No)
                 e.Cancel = true;
         }
 
