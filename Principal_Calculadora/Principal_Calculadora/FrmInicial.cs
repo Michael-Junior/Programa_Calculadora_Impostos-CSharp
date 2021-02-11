@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Principal_Calculadora
 {
-    public partial class FormSobre : Form
+    public partial class FrmInicial : Form
     {
-        public FormSobre()
+        public FrmInicial()
         {
             InitializeComponent();
+        }
+
+        private void FrmInicial_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Principal_Calculadora
+namespace FrmTelaInicial
 {
     static class Program
     {
@@ -16,11 +16,7 @@ namespace Principal_Calculadora
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TelaPrincipal());
-            FrmInicial Inicializacao = new FrmInicial();
-            
-                
-            
+            Application.Run(new FrmTelaInicial());
         }
     }
 }

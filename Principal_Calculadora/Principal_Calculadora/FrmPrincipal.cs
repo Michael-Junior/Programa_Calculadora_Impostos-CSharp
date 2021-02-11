@@ -12,10 +12,16 @@ namespace Principal_Calculadora
 {
     public partial class TelaPrincipal : Form
     {
-        public TelaPrincipal()
-        {
-            InitializeComponent();
+        string pasta_aplicacao = "";
 
+        public TelaPrincipal()
+
+        {
+            
+            InitializeComponent();
+            pasta_aplicacao = Application.StartupPath + @"\";
+
+            MessageBox.Show(pasta_aplicacao + @"images\Image_calc_imp.png"); ;
         }
 
         private void TelaInicial(object sender, EventArgs e)
@@ -25,7 +31,7 @@ namespace Principal_Calculadora
 
         private void ButtonIcms_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void ButtonIcmsSt_Click(object sender, EventArgs e)
@@ -55,7 +61,9 @@ namespace Principal_Calculadora
 
         private void ButtonInicio_Click(object sender, EventArgs e)
         {
-
+            var Form1 = new FrmInicial();
+            Form1.MdiParent = this;
+            Form1.Show();
         }
 
         private void ButtonSair_Click(object sender, EventArgs e)
@@ -64,12 +72,6 @@ namespace Principal_Calculadora
 
             if (SfecharAplicacao == DialogResult.Yes)
                 System.Environment.Exit(1);
-        }
-
-        private void ButtonSobre_Click(object sender, EventArgs e)
-        {
-            FormSobre TelaSobre = new FormSobre();
-                TelaSobre.ShowDialog();
         }
 
         private void TelaPrincipal_FormClosed(object sender, FormClosedEventArgs e)
@@ -86,6 +88,20 @@ namespace Principal_Calculadora
         }
 
         private void TelaPrincipal_Load(object sender, EventArgs e)
+        {
+            this.BackgroundImage = Image.FromFile(pasta_aplicacao + @"images\Image_calc_imp.png");
+        }
+
+        private void ButtonSobre_Click(object sender, EventArgs e)
+        {
+            var Form1 = new FrmSobre();
+            Form1.MdiParent = this;
+            Form1.Show();
+
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
