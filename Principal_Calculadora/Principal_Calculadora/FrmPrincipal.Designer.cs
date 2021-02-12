@@ -39,9 +39,7 @@
             this.ButtonSobre = new System.Windows.Forms.Button();
             this.ButtonInicio = new System.Windows.Forms.Button();
             this.ButtonSair = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxMENU)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // PictureBoxMENU
@@ -232,22 +230,11 @@
             this.ButtonSair.UseVisualStyleBackColor = false;
             this.ButtonSair.Click += new System.EventHandler(this.ButtonSair_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(251, -2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(672, 562);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // TelaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(920, 552);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(918, 553);
             this.Controls.Add(this.ButtonSair);
             this.Controls.Add(this.ButtonInicio);
             this.Controls.Add(this.ButtonSobre);
@@ -270,7 +257,6 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TelaPrincipal_FormClosed);
             this.Load += new System.EventHandler(this.TelaPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxMENU)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -287,7 +273,6 @@
         private System.Windows.Forms.Button ButtonSobre;
         private System.Windows.Forms.Button ButtonInicio;
         private System.Windows.Forms.Button ButtonSair;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -1,6 +1,6 @@
 ﻿namespace Principal_Calculadora
 {
-    partial class FrmInicial
+    partial class FrmCofins
     {
         /// <summary>
         /// Required designer variable.
@@ -28,24 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmInicial));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // textBox1
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(679, 546);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.textBox1.Location = new System.Drawing.Point(56, 66);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 26);
+            this.textBox1.TabIndex = 0;
             // 
-            // FrmInicial
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(55, 39);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(129, 20);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Valor Mercadoria";
+            // 
+            // FrmCofins
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -53,25 +57,25 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(679, 546);
             this.ControlBox = false;
-            this.Controls.Add(this.pictureBox1);
-            this.ForeColor = System.Drawing.Color.Transparent;
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
+            this.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Location = new System.Drawing.Point(155, 0);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FrmInicial";
-            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Name = "FrmCofins";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "FrmInicial";
-            this.TransparencyKey = System.Drawing.Color.Transparent;
-            this.Load += new System.EventHandler(this.FrmInicial_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Text = "FrmCofins";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
     }
 }

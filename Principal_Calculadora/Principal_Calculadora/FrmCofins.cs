@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Principal_Calculadora
 {
-    public partial class FrmInicial : Form
+    public partial class FrmCofins : Form
     {
-        public FrmInicial()
+        public FrmCofins()
         {
             InitializeComponent();
-        }
-
-        private void FrmInicial_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

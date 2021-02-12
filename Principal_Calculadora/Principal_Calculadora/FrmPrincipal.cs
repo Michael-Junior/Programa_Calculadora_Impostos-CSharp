@@ -12,16 +12,12 @@ namespace Principal_Calculadora
 {
     public partial class TelaPrincipal : Form
     {
-        string pasta_aplicacao = "";
 
         public TelaPrincipal()
 
         {
-            
             InitializeComponent();
-            pasta_aplicacao = Application.StartupPath + @"\";
 
-            MessageBox.Show(pasta_aplicacao + @"images\Image_calc_imp.png"); ;
         }
 
         private void TelaInicial(object sender, EventArgs e)
@@ -56,7 +52,9 @@ namespace Principal_Calculadora
 
         private void ButtonCofins_Click(object sender, EventArgs e)
         {
-
+            var Form1 = new FrmCofins();
+            Form1.MdiParent = this;
+            Form1.Show();
         }
 
         private void ButtonInicio_Click(object sender, EventArgs e)
@@ -89,7 +87,7 @@ namespace Principal_Calculadora
 
         private void TelaPrincipal_Load(object sender, EventArgs e)
         {
-            this.BackgroundImage = Image.FromFile(pasta_aplicacao + @"images\Image_calc_imp.png");
+
         }
 
         private void ButtonSobre_Click(object sender, EventArgs e)
@@ -97,8 +95,6 @@ namespace Principal_Calculadora
             var Form1 = new FrmSobre();
             Form1.MdiParent = this;
             Form1.Show();
-
-
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
