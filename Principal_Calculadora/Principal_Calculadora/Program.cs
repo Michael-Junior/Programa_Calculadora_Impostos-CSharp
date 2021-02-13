@@ -16,8 +16,10 @@ namespace Principal_Calculadora
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TelaPrincipal());
-            FrmInicial Inicializacao = new FrmInicial();
+            Application.Run(new TelaPrincipal2());
+                
+ 
+                
             
                 
             

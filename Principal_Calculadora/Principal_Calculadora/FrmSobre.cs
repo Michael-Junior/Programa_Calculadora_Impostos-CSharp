@@ -17,11 +17,6 @@ namespace Principal_Calculadora
             InitializeComponent();
         }
 
-        private void FrmSobre_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
 

@@ -55,10 +55,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(679, 546);
+            this.ClientSize = new System.Drawing.Size(710, 546);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Location = new System.Drawing.Point(155, 0);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmSobre";
@@ -66,7 +65,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "FrmSobre";
-            this.Load += new System.EventHandler(this.FrmSobre_Load);
+            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 
