@@ -57,8 +57,8 @@ namespace Principal_Calculadora
                 {
                     ctlMDI = (MdiClient)ctl;
 
-                    //ctlMDI.BackColor = System.Drawing.Color.LightSkyBlue;
-                    ctlMDI.BackgroundImage = Properties.Resources.BackImages;
+                    ctlMDI.BackColor = System.Drawing.Color.LightSkyBlue;
+                    //ctlMDI.BackgroundImage = Properties.Resources.BackImages;
                     menuStrip1 = true;
 
                 }
@@ -70,6 +70,23 @@ namespace Principal_Calculadora
             }
 
 
+        }
+
+        private void toolStripMenuItem7_Click(object sender, EventArgs e)
+        {
+            {
+                FrmICMS a = new FrmICMS();
+                a.MdiParent = this;
+                a.Show();
+            }
+
+        }
+
+        private void toolStripMenuItem6_Click(object sender, EventArgs e)
+        {
+            FrmInicial b = new FrmInicial();
+            b.MdiParent = this;
+            b.Show();
         }
     }
 }

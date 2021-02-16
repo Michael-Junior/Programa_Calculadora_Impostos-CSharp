@@ -53,6 +53,12 @@
     <Compile Include="FrmCofins.Designer.cs">
       <DependentUpon>FrmCofins.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmICMS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmICMS.Designer.cs">
+      <DependentUpon>FrmICMS.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmInicial.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmCofins.resx">
       <DependentUpon>FrmCofins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmICMS.resx">
+      <DependentUpon>FrmICMS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmInicial.resx">
       <DependentUpon>FrmInicial.cs</DependentUpon>

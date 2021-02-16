@@ -61,7 +61,7 @@
             this.MenuStrip.Location = new System.Drawing.Point(0, 0);
             this.MenuStrip.Name = "MenuStrip";
             this.MenuStrip.Padding = new System.Windows.Forms.Padding(6, 2, 0, 13);
-            this.MenuStrip.Size = new System.Drawing.Size(202, 553);
+            this.MenuStrip.Size = new System.Drawing.Size(201, 553);
             this.MenuStrip.TabIndex = 1;
             this.MenuStrip.Text = "menuStrip1";
             // 
@@ -75,10 +75,11 @@
             this.toolStripMenuItem7.Margin = new System.Windows.Forms.Padding(0, 20, 0, 0);
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
             this.toolStripMenuItem7.Padding = new System.Windows.Forms.Padding(4, 0, 4, 6);
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(195, 40);
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(194, 40);
             this.toolStripMenuItem7.Text = "ICMS";
             this.toolStripMenuItem7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.toolStripMenuItem7.TextImageRelation = System.Windows.Forms.TextImageRelation.Overlay;
+            this.toolStripMenuItem7.Click += new System.EventHandler(this.toolStripMenuItem7_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -88,7 +89,7 @@
             this.toolStripMenuItem1.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Padding = new System.Windows.Forms.Padding(4, 0, 4, 6);
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(195, 40);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(194, 40);
             this.toolStripMenuItem1.Text = "ICMS ST";
             this.toolStripMenuItem1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -100,7 +101,7 @@
             this.toolStripMenuItem2.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Padding = new System.Windows.Forms.Padding(4, 0, 4, 6);
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(195, 40);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(194, 40);
             this.toolStripMenuItem2.Text = "ICMS DIFAL";
             this.toolStripMenuItem2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -112,7 +113,7 @@
             this.toolStripMenuItem3.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.Padding = new System.Windows.Forms.Padding(4, 0, 4, 6);
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(195, 40);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(194, 40);
             this.toolStripMenuItem3.Text = "IPI";
             this.toolStripMenuItem3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -124,7 +125,7 @@
             this.toolStripMenuItem5.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
             this.toolStripMenuItem5.Padding = new System.Windows.Forms.Padding(4, 0, 4, 6);
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(195, 40);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(194, 40);
             this.toolStripMenuItem5.Text = "PIS";
             this.toolStripMenuItem5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -136,7 +137,7 @@
             this.toolStripMenuItem4.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
             this.toolStripMenuItem4.Padding = new System.Windows.Forms.Padding(4, 0, 4, 6);
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(195, 40);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(194, 40);
             this.toolStripMenuItem4.Text = "COFINS";
             this.toolStripMenuItem4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -148,9 +149,10 @@
             this.toolStripMenuItem6.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
             this.toolStripMenuItem6.Padding = new System.Windows.Forms.Padding(4, 0, 4, 6);
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(195, 40);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(194, 40);
             this.toolStripMenuItem6.Text = "TELA INICIAL";
             this.toolStripMenuItem6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.toolStripMenuItem6.Click += new System.EventHandler(this.toolStripMenuItem6_Click);
             // 
             // toolStripMenuItem8
             // 
@@ -160,7 +162,7 @@
             this.toolStripMenuItem8.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
             this.toolStripMenuItem8.Padding = new System.Windows.Forms.Padding(4, 0, 4, 6);
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(195, 40);
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(194, 40);
             this.toolStripMenuItem8.Text = "SAIR";
             this.toolStripMenuItem8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.toolStripMenuItem8.Click += new System.EventHandler(this.toolStripMenuItem8_Click);
@@ -173,7 +175,7 @@
             this.toolStripMenuItem9.Margin = new System.Windows.Forms.Padding(0, 12, 0, 0);
             this.toolStripMenuItem9.Name = "toolStripMenuItem9";
             this.toolStripMenuItem9.Padding = new System.Windows.Forms.Padding(4, 0, 4, 6);
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(195, 29);
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(194, 29);
             this.toolStripMenuItem9.Text = "Sobre a Calculadora";
             this.toolStripMenuItem9.Click += new System.EventHandler(this.toolStripMenuItem9_Click);
             // 
